@@ -2,8 +2,16 @@
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 原作者不是我，因为原作者新开发了banner2.0的库，我只是接着继续写1.0版本的库而已。
+原作者：：<a href="https://github.com/youth5201314" target="_blank">youth5201314</a>
+原作者新写的banner2.0版本：https://github.com/youth5201314/banner
+原作者之前的banner1.0版本：https://github.com/youth5201314/banner/tree/release-1.4.10
 
-以下是原作者之前的更新日志：
+#### 以下是现版本的更新日志：
+## 更新说明
+#### v1.5.0
+ * banner新增加属性：indicator_margin_bottom(设置指示器的bottom外边距)
+
+#### 以下是之前原作者的更新日志：
 ## 更新说明
 #### v1.4.10
     很久没有维护banner了，有工作原因比较忙，也有经常遇见一些素质低的人，感觉整个世界都欠他们的，特别影响心情。就放弃更新维护了，
