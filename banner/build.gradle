@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-version = "1.4.2"
+version = "1.5.0"
 
 android {
     compileSdkVersion 28
@@ -10,7 +10,7 @@ android {
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 28
-        versionCode 42
+        versionCode 50
         versionName version
     }
     buildTypes {
@@ -34,12 +34,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-
-//def siteUrl = 'https://github.com/youth5201314/banner' // 项目的主页
-//def gitUrl = 'https://github.com/youth5201314/banner.git' // Git仓库的url
 def siteUrl = 'https://github.com/fox0830/banner' // 项目的主页
 def gitUrl = 'https://github.com/fox0830/banner.git' // Git仓库的url
-//group = "com.youth.banner" //一般填你唯一的包名
 group = "com.github.fox0830" //一般填你唯一的包名
 //gradlew bintrayUpload
 install {
@@ -55,13 +51,6 @@ install {
                     license {
                         name 'The Apache Software License, Version 2.0'
                         url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                    }
-                }
-                developers {
-                    developer {//填写的一些基本信息
-                        id 'youth5201314'
-                        name 'spring'
-                        email '1028729086@qq.com'
                     }
                 }
                 scm {
