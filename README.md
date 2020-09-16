@@ -10,6 +10,7 @@
 ## 更新说明
 #### v1.5.0
  * banner新增加属性：indicator_margin_bottom(设置指示器的bottom外边距)
+ * indicator_selected_height与indicator_selected_width的默认值分别改为indicator_height与indicator_width的值
 
 #### 以下是之前原作者的更新日志：
 ## 更新说明
